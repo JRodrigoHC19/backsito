@@ -1,0 +1,31 @@
+
+# Directories
+frontend/
+venv-guitar/*
+
+
+# Configuration
+# jwt/*
+
+
+# Python
+__pycache__/
+
+
+# Node
+node_modules/
+
+
+# Virtual Environment
+venv-guitar/
+frontend/*
+
+
+# Environment Variables
+*.env*
+*package-lock.json*
+
+
+# Excluir archivos de base de datos locales
+*.sqlite
+*.db
