@@ -1,6 +1,9 @@
 #!/bin/bash
 
-git clone
+git clone https://github.com/JRodrigoHC19/backsito.git
 
-docker build --tag srv-auth .
-docker run --rm -p 3000:3000 srv-auth
+cd backsito
+
+docker-compose up -d
+
+echo "Backsito is running on port 3000"
